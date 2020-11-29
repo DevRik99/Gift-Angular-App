@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GiftAppAngular"
+    }
+  },
+  "defaultProject": "GiftAppAngular",
+  "cli": {
+    "analytics": "002aad37-772f-498c-8f12-be603c8700ac"
+  }
 }
