@@ -1,27 +1,55 @@
-# GiftAppAngular
+# Gift Buscador App en Angular 10
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+_Hola este es un ejemplo de un buscador de Gifts en **Angular 10** utilizando la api de **giphy**_
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-## Code scaffolding
+Mira la **Instalación** para conocer como desplegar el proyecto.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Demo 🌐
 
-## Build
+_Puedes ver la demostracion del proyecto en el siguiente enlace_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- [Demo](https://devrik99.github.io/Gift-Angular-App/)
 
-## Running unit tests
+### Instalación 🔧
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Solo necesita clonar el repositorio y ejecutar el siguiente comando_
 
-## Running end-to-end tests
+```
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Construido con 🛠️
 
-## Further help
+_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Angular](https://angular.io/) - Es la librería utilizada para construir la App
+- [Giphy](https://developers.giphy.com/) - Es la API utilizada para realizar la busqueda de Gifts
+
+## Contribuyendo 🖇️
+
+Si va a usar el proyecto por favor envíame el pull requests y dejame una estrella.
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (MIT License)
+
+Copyright (c) 2020 DevRik99
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Expresiones de Gratitud 🎁
+
+- Comenta a otros sobre este proyecto 📢
+- Invitanos una cerveza 🍺 o un café ☕.
+- Da las gracias públicamente 🤓.
+- etc.
+
+---
