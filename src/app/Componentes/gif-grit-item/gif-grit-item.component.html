@@ -1,0 +1,8 @@
+<div *ngIf='gifs' class="card-container">
+  <p *ngIf="isLoading">Cargando ...</p>
+  <h3 *ngIf="gifs.length === 0 && !isLoading"> No se encontraron resultados</h3>
+  <div *ngFor="let gif of gifs" class="card">
+    <img loading="lazy" [src]='gif.url' [alt]='gif.title' />
+    <p>{{gif.title}}</p>
+  </div>
+</div>

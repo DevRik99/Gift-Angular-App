@@ -1,10 +1,16 @@
-<form>
-  <input type="text">
-  <button type="submit">Agregar</button>
-</form>
+<app-form-gif></app-form-gif>
+<div>
+  <ul>
+    <li *ngFor="let categoria of this.categoriasService.categorias">
+      <a [href]="'#'+categoria">
+        {{categoria}}
+      </a>
+    </li>
+  </ul>
+  <div *ngFor="let categoria of this.categoriasService.categorias" class="container">
+    <h3 [id]='categoria' class="categoria"> {{categoria}} </h3>
+    <app-gif-grit-item [categoria]='categoria'></app-gif-grit-item>
+  </div>
 
-<ul>
-  <li *ngFor="let categoria of categorias">
-    {{categoria}}
-  </li>
-</ul>
+
+</div>

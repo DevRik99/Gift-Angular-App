@@ -11,7 +11,7 @@ export class CategoriasService {
       return this.categorias;
     }
     if (input.trim().length > 0) {
-      return [input, ...this.categorias];
+      return (this.categorias = [input, ...this.categorias]);
     }
     return this.categorias;
   };
