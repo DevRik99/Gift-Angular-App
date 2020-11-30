@@ -12,7 +12,7 @@ Mira la **Instalación** para conocer como desplegar el proyecto.
 
 _Puedes ver la demostracion del proyecto en el siguiente enlace_
 
-- [Demo](https://devrik99.github.io/Gift-Angular-App/)
+- [Demo](https://gift-angular-app.web.app/)
 
 ### Instalación 🔧
 
